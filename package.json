@@ -1,0 +1,44 @@
+{
+  "name": "wifi-triangulate",
+  "version": "0.0.0",
+  "description": "Finds your current position on planet earth using the wifi access points in your vicinity",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard && node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/watson/wifi-triangulate.git"
+  },
+  "keywords": [
+    "wifi",
+    "access",
+    "points",
+    "accesspoints",
+    "triangulate",
+    "location",
+    "locate",
+    "position",
+    "lat",
+    "latitude",
+    "lng",
+    "long",
+    "longitude",
+    "NSA"
+  ],
+  "author": "Thomas Watson Steen <w@tson.dk> (https://github.com/watson)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/watson/wifi-triangulate/issues"
+  },
+  "homepage": "https://github.com/watson/wifi-triangulate",
+  "dependencies": {
+    "geocode-wifi": "^1.0.0",
+    "node-wifiscanner": "^0.2.1"
+  },
+  "devDependencies": {
+    "proxyquire": "^1.5.0",
+    "standard": "^4.2.1",
+    "tape": "^4.0.0"
+  }
+}
