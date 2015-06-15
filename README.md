@@ -28,6 +28,25 @@ triangulate(function (err, location) {
 })
 ```
 
+## CLI
+
+Install wifi-triangulate as a global module to use it as a CLI:
+
+```sh
+npm install --global wifi-triangulate
+```
+
+Now just execute the `wifi-triangulate` command:
+
+```sh
+$ wifi-triangulate
+{
+    "lat": 38.0690894,
+    "lng": -122.8069356,
+    "accuracy": 42
+}
+```
+
 ## License
 
 MIT
