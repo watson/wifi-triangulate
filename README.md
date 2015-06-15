@@ -28,6 +28,26 @@ triangulate(function (err, location) {
 })
 ```
 
+## CLI
+
+```sh
+$ npm install --global wifi-triangulate
+```
+
+```sh
+$ wifi-triangulate --help
+
+  Finds your current position on planet earth using the wifi access points in your vicinity
+
+  Example
+    wifi-triangulate
+    => {
+         "lat": 38.0690894,
+         "lng": -122.8069356,
+         "accuracy": 42
+       }
+```
+
 ## License
 
 MIT
