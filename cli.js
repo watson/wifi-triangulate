@@ -31,5 +31,10 @@ if (argv.indexOf('--version') !== -1) {
 }
 
 wifiTriangulate(function(error, location) {
+  if (error) {
+    console.error(error);
+    process.exit(1);
+  }
+
   console.log(JSON.stringify(location, null, 4));
 });
