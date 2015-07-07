@@ -36,7 +36,7 @@
   },
   "homepage": "https://github.com/watson/wifi-triangulate",
   "dependencies": {
-    "geocode-wifi": "^1.0.0",
+    "geocode-wifi": "^1.0.1",
     "node-wifiscanner": "^0.2.1"
   },
   "devDependencies": {
