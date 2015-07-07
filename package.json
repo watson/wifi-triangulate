@@ -1,6 +1,6 @@
 {
   "name": "wifi-triangulate",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Finds your current position on planet earth using the wifi access points in your vicinity",
   "main": "index.js",
   "scripts": {
@@ -45,7 +45,7 @@
     "tape": "^4.0.0"
   },
   "coordinates": [
-    37.7493702,
-    -122.4208509
+    55.6665955,
+    12.5798274
   ]
 }
