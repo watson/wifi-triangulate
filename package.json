@@ -1,6 +1,6 @@
 {
   "name": "wifi-triangulate",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "Finds your current position on planet earth using the wifi access points in your vicinity",
   "main": "index.js",
   "scripts": {
@@ -37,7 +37,7 @@
   "homepage": "https://github.com/watson/wifi-triangulate",
   "dependencies": {
     "geocode-wifi": "^1.0.1",
-    "node-wifiscanner": "^0.2.1"
+    "node-wifiscanner2": "^1.2.0"
   },
   "devDependencies": {
     "proxyquire": "^1.5.0",

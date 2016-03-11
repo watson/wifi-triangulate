@@ -11,7 +11,7 @@ proxyquire('./', {
 })
 
 var test = require('tape')
-var wifiScanner = require('node-wifiscanner')
+var wifiScanner = require('node-wifiscanner2')
 var wifiTriangulate = require('./')
 
 test('wifi error', function (t) {
