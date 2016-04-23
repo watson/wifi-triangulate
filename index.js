@@ -1,7 +1,7 @@
 'use strict'
 
 var geocodeWifi = require('geocode-wifi')
-var wifiScanner = require('node-wifiscanner')
+var wifiScanner = require('node-wifiscanner2')
 
 module.exports = function (cb) {
   wifiScanner.scan(function (err, towers) {
